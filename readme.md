@@ -3,6 +3,10 @@
 
 A quick and easy way to give [form.io](https://form.io/) a spin!
 
+
+### prerequisites
+* docker 1.12.1 or greater
+
 ### steps
 
 1) clone this repo: <code> git clone https://github.com/hellgrenj/formio_poc.git</code>  
