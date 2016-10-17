@@ -1,7 +1,7 @@
 {
   "name": "formio_poc",
   "version": "1.0.0",
-  "description": "",
+  "description": "A quick and easy way to give form.io a spin!",
   "main": "install.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
