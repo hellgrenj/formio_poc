@@ -1,0 +1,19 @@
+version: '2'
+services:
+  formio:
+    build: .
+    depends_on:
+     - mongo
+    links:
+     - mongo
+    ports:
+      - "3001:3001"
+    stdin_open: true
+    tty: true
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+      - "28017:28017"
+    environment:
+    - AUTH=no
