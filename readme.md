@@ -5,7 +5,8 @@ A quick and easy way to give [form.io](https://form.io/) a spin!
 
 
 ### prerequisites
-* docker 1.12.1 or greater
+* have docker 1.12.1 or greater installed
+* have git installed
 
 ### steps
 
